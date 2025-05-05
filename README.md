@@ -13,4 +13,5 @@ In order to use this tool, do the following:
 5. git init
 6. npm install
 
-If you're not using the database or ORM from above, for step 2, do this instead: git clone --branch no-orm --single-branch https://github.com/Akorex/backend-scaffold.git
+If you're not using the database or ORM from above, for step 2, do this instead:
+➡️ git clone --branch no-orm --single-branch https://github.com/Akorex/backend-scaffold.git
