@@ -13,6 +13,4 @@ In order to use this tool, do the following:
 5. git init
 6. npm install
 
-If you're using a different database, do this:'
-7. npm uninstall pg, typeorm
-8. Replace db.config.ts with the necessary db initialization code.
+If you're not using the database or ORM from above, for step 2, do this instead: git clone --branch no-orm --single-branch https://github.com/Akorex/backend-scaffold.git
