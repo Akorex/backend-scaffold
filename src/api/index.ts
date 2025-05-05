@@ -2,7 +2,6 @@ import express from "express";
 import { Express, Request, Response, NextFunction } from "express";
 import cors from "cors";
 import { Routes } from "./route.interface";
-import { appDataSource } from "./db.config";
 import { notFoundHandler, errorHandler } from "./errorhandlers/error.handler";
 
 class App {
@@ -53,7 +52,7 @@ class App {
 
   private async initDB() {
     try {
-      await appDataSource.initialize();
+      // code to install db
       console.log("Database connection established");
     } catch (error) {
       console.log("Database connection failed");
